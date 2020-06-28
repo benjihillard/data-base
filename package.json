@@ -1,0 +1,24 @@
+{
+  "name": "data-base",
+  "version": "1.0.0",
+  "description": "basic mongoos db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjihillard/data-base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjihillard/data-base/issues"
+  },
+  "homepage": "https://github.com/benjihillard/data-base#readme",
+  "dependencies": {
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^5.9.20",
+    "multer-gridfs-storage": "^4.2.0"
+  }
+}
